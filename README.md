@@ -1,6 +1,6 @@
 # 💻 Landing Page - Landing Coffe 💻
 
-Este é o projeto numero 1.
+Este é o projeto numero 2.
 
 Este site é uma Landing Page Simples porém com codigos modernos e mais limpos 100% reposvos e funcionais, ele foi desenvolvido com a trindade do front-end (HTML, CSS, JS).
 
