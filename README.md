@@ -11,6 +11,8 @@ PS: lembre-se rode o código, leia ele. Entenda e crie sua lógica por cima só 
 
 projeto Hospedado: https://landingcoffe.netlify.app/
 
+Para este site eu ultilizei de base o Design desse: https://corretto.qodeinteractive.com/espresso/ (Os codigos são 100% meus) 
+
 
  <h3>🔥Tecnologias Ultilizadas🔥</h3>
   
