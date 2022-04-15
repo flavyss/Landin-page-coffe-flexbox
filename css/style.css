@@ -1,0 +1,347 @@
+/*Reset Básico Do Site*/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    /*
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Pacifico', cursive;
+    */
+}
+
+body::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);   
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(255, 198, 66);
+    border-radius: 20px; 
+}
+
+
+/*Variaveis Globais do Site*/
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.opacity{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.800);
+}
+
+.text{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.text p{
+    color: #666;
+}
+
+.text img{
+    width: 200px;
+}
+
+.text h2{
+    font-size: 45px;
+    font-family: 'Ms Madi', cursive;
+    margin: 15px 0;
+}
+
+
+/*Header do Site*/
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/backgrounds/coffee-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*Ajustando a Logo*/
+
+header > .container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a{
+    z-index: 2;
+    text-align: center;
+}
+
+header img{
+    width: 100%;
+}
+
+/*Section About*/
+
+section.about{
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+/*Section Photos*/
+
+section.photos{
+    width: 100%;
+    padding: 30px 0;
+}
+
+section.photos .photos-content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section.photos .photos-wraper{
+    width: calc(100% / 4);
+    height: 250px;
+}
+
+section.photos .photo-single{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*Sesciton menu*/
+
+section.menu{
+    padding: 50px 0;
+    text-align: center;
+}
+
+section.menu .menu-content{
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section.menu .menu-wraper{
+    width: calc(100% / 2);
+    padding: 20px;
+    text-align: start;
+}
+
+section.menu .coffe-single{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+}
+
+section.menu .coffe-text{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 20px;
+    width: 100%;
+}
+
+section.menu .coffe-text h3{
+    width: 50%;
+    color: #666;
+    text-align: left;
+    border-bottom: 1px dotted #666;
+}
+
+section.menu .coffe-text h3:nth-child(2){
+    text-align: end;
+}
+
+section.menu .coffe-text p{
+    width: 100%;
+}
+
+/*Section info*/
+
+section.info{
+    padding: 50px 0;
+    text-align: center;
+}
+
+section.info .quadro{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+section.info .quadro:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+section.info .quadro-img{
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 300px;
+}
+
+section.info .quadro-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+section.info .quadro-img img:hover{
+    transform: scale(1.50);
+    transition: 1s
+}
+
+section.info .txt{
+    width: 60%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+section.info h2{
+    font-size: 45px;
+    font-family: 'Ms Madi', cursive;
+    margin: 15px 0;
+}
+
+section.info p{
+    font-size: 20px;
+    color: #666;
+}
+
+/*Section Oferts*/
+
+section.oferts{
+    text-align: center;
+    padding: 50px 0;
+}
+
+section.oferts .oferts-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 80px;
+    justify-content: center;
+}
+
+section.oferts .oferts-wraper{
+    width: calc(100% / 4 );
+    padding: 20px ;
+}
+
+section.oferts h3{
+    margin: 10px 0;
+}
+
+section.oferts p{
+    color: #666;
+}
+
+/*Newsletter*/
+
+section.newsletter{
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    background-image: url(../images/backgrounds/coffe-background\(2\).jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section.newsletter > .container{
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+}
+
+section.newsletter form {
+    width: 100%;
+}
+
+section.newsletter form h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+    font-variant: small-caps;
+    margin: 0 0 15px 0;
+}
+
+section.newsletter form input[type="email"]{
+    width: 50%;
+    border: none;
+    outline: none;
+    color: #666;
+    height: 20px;
+    padding: 8px;
+    height: 30px;
+    font-size: 15px;
+}
+
+section.newsletter form button{
+    width: 10%;
+    height: 30px;
+    border: none;
+    background-color: rgb(246, 213, 135);
+    outline: none;
+    padding: 8px;
+    color: #666;
+    cursor: pointer;
+}
+
+/*Footer*/
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: #666;  
+    margin-top: 25px;
+}
+
+footer span a i{
+    color: #666;  
+}
+
+footer span a{
+    color: #666;  
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer p{
+    padding: 5px 0;
+}

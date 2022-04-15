@@ -1,0 +1,103 @@
+/*Iniciando o Responsivo do Site*/
+
+@media screen and (max-width: 1000px){
+
+    /*Section Photos*/
+
+    section.photos .photos-wraper{
+        width: calc(100% / 2);
+    }
+
+    /*Sesciton menu*/
+   
+    section.menu .menu-wraper{
+        width: 100%;
+        padding:0;
+    }
+
+    /*Section info*/
+
+    section.info .quadro-img{
+        width: 100%;
+        height: auto;
+    }
+
+    section.info .quadro-img img{
+        width: 70%;
+    }
+    
+    section.info .txt{
+        width: 100%;
+        margin: 25px 0;
+    }
+
+
+    /*Section Oferts*/
+
+    section.oferts .oferts-wraper{
+        width: calc(100% / 2 );
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    /*Ajustando a Logo*/
+
+    header img{
+        width: 70%;
+    }
+
+
+    /*Section About*/
+
+    .text{
+        width: 100%;
+    }
+
+    .text h2{
+        font-size: 35px;
+    }
+
+    /*Section Photos*/
+
+    section.photos .photos-wraper{
+        width: 100%;
+    }
+
+    section.photos .photo-single{
+        background-attachment: fixed;
+    }
+
+    /*Sesciton menu*/
+
+    section.menu .coffe-text{
+        padding: 0px;
+    }
+
+    section.menu .menu-wraper img{
+        display: none;
+    }
+
+    /*Section info*/
+
+    section.info .quadro-img img{
+        width: 100%;
+    }
+
+    /*Section Oferts*/
+
+    section.oferts .oferts-wraper{
+        width: 100%;
+    }
+
+    section.newsletter form input[type="email"]{
+        width: 70%;
+    }
+    
+    section.newsletter form button{
+        width: 20%;
+    }
+    
+       
+}
